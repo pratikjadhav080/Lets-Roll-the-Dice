@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="sttle1.css" />
+    <title>Dice Game</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="player1 main1 time">
+        <div>
+          <h2 class="name">PLAYER 1</h2>
+          <p class="final">0</p>
+        </div>
+
+        <div class="current">
+          <p class="current-label">CURRENT</p>
+          <p class="current-score">0</p>
+        </div>
+      </div>
+
+      <div class="player2 main2 player--active">
+        <div>
+          <h2 class="name font">PLAYER 2</h2>
+          <p class="final">0</p>
+        </div>
+
+        <div class="current current--opacity">
+          <p class="current-label">CURRENT</p>
+          <p class="current-score">0</p>
+        </div>
+      </div>
+      <img src="" id="dice1" class="dice" name="dice" />
+      <button class="btn1 btn--new" onclick="new1();">🔄 New Game</button>
+      <button class="btn1 btn--roll" onclick="roll();">🎲 Roll Dice</button>
+      <button class="btn1 btn--hold" onclick="hold();">📥 Hold</button>
+    </div>
+    <script src="script1.js"></script>
+  </body>
+</html>
+
+<!-- 
+<div class="main">
+    <div>NEW GAME</div>
+    <div>ROLL DICE</div>
+    <div>HOLD</div>
+    <div class="main1">
+      
+    </div>
+    <div class="main2">
+      
+    </div>
+  </div> -->
